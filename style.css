@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+   background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(logo2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+body{
+    font-family: 'Raleway';
+}
+.container{
+    display: flex;
+    margin: 30px 0;
+}
+.left{
+    flex-basis: 40%;
+    padding: 1em 1em;
+    box-shadow: 2px 9px 49px -17px rgb(14, 233, 215);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    
+}
+h2{
+    align-items: center;
+}
+
+.right{
+    margin-left: 25px;
+}
+
+.loginForm form .field input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 15px;
+    font-size: 17px}
+button{
+    width: 150px;
+    padding: 15px 0;
+    margin: 20px 0;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 3px solid rgb(233, 21, 215);
+    background: transparent;
+    color: rgba(0, 0, 0, 0.966);
+   
+}
+.form_login:focus{
+background: transparent;
+border: 1px solid rgb(14, 233, 215);
+}
+.login-btn{
+    font-size: 20px;
+    color: rgb(14, 233, 215);
+    width: 100%;
+    background-color: rgb(120, 9, 224);
+    font-weight: 500;
+    transition: 0.5s ease;
+}.login_form{
+    margin: 30px 0;
+    border-radius: 35px;
+}
+.form_login{
+    font-size: 20px;
+    color: rgb(14, 233, 215);
+    width: 100%;
+    font-weight: 500;
+}
